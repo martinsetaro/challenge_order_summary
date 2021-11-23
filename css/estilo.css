@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card {
+        width: 400px;
+        height: 630px;
+        border-radius: 20px;
+       
+        margin: 40px auto;
+        background: white;
+}
+.card img {
+      width: 100%;
+      height: 200px;
+      border-top-left-radius: 20px;
+        border-top-right-radius:20px;
+}
+.card h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    color: hsl(223, 47%, 23%);
+}
+.card p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    text-align:center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    color:hsl(224, 23%, 55%);
+}
+.pago {
+     width: 75%;
+     height: 80px;
+     display: flex;
+     margin: 40px auto;
+     
+}
+.logo_music {
+                  width: 40px;
+                  height: 40px;
+}
+.logo_music img{
+     width: 100%;
+     height: 100%;
+}
+.paid{
+    width: 180px;
+    height: 80px;
+    padding-left: 30px;
+}
+.paid h3 {
+     font-size: 15px;
+     color:hsl(223, 47%, 23%);
+     font-weight: 900;
+     font-family: 'Red Hat Display', sans-serif;
+
+}
+.paid h4 {
+        font-size: 14px;
+        font-family: 'Red Hat Display', sans-serif;
+        color:hsl(224, 23%, 55%);
+
+}
+.change {
+    width: 80px;
+    height: 80px;
+    line-height: 40px;
+}
+.change a {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(245, 75%, 52%);
+    font-size: 13px;
+    font-weight: 700;
+    transition:all .2s ease-in;
+}
+.change a:hover{
+    color:hsl(224, 23%, 55%);
+}
+
+.button_payment {
+    width: 80%;
+      height: 40px;
+    background: hsl(245, 75%, 52%);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+.button_payment:hover {
+          background:hsl(224, 23%, 55%);
+}
+.button_payment a {
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.card .cancel {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    transition: all .2s ease-in;
+        
+}
+.card .cancel:hover{
+    color: black;
+}
+   
+
+@media screen and (max-width:375px){
+    
+body{
+    background:hsl(225, 100%, 94%);
+}
+
+ .card {
+         width: 90%;
+        
+         
+ }
+
+
+    }
+    
+
